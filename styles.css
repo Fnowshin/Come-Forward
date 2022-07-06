@@ -1,23 +1,31 @@
 body{
     font-family: 'Ubuntu', sans-serif;
-    color: aliceblue;
+    
 }
-
+h3{
+    color: black;
+}
+h1{
+    color: aliceblue;
+    font-size: 50px;
+    text-align: center;
+}
+p{
+    color: aliceblue;
+    text-align: center;
+    font-size: larger;
+    padding-bottom: 5%;
+}
+hr{
+    width: 60%;
+    margin-bottom: 40px;
+}
 .top-container{
     background-image: url(Images/donation13.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     padding-top: 100px;
     padding-bottom: 100px;
-}
-h1{
-    font-size: 50px;
-    text-align: center;
-}
-p{
-    text-align: center;
-    font-size: larger;
-    padding-bottom: 5%;
 }
 .help{
     margin-left: 550px;
@@ -30,4 +38,84 @@ p{
     padding: 20px 40px;
     border-radius: 40px;
     box-shadow: 10px 10px 20px rgb(167, 115, 123);
+}
+
+.help-today{
+    text-align: center;
+    padding-top: 5%;
+}
+.text{
+    color: black;
+}
+
+#amount {
+    display: flex;
+}
+.first{
+    margin-left: 150px;
+    margin-right: 20px;
+    font-weight: 700;
+    font-size: larger;
+    background-color: rgb(253, 237, 243);
+    text-decoration: none;
+    padding: 20px 40px;  
+}
+.second {
+    margin-left: 50px;
+    margin-right: 20px;
+    font-weight: 700;
+    font-size: larger;
+    background-color: rgb(253, 237, 243);
+    text-decoration: none;
+    padding: 20px 40px;
+}
+.third {
+    background-color: rgb(207, 100, 118);
+    border: solid;
+    border-color: rgb(150, 78, 116);
+    margin-left: 50px;
+    margin-right: 20px;
+    font-weight: 700;
+    font-size: larger;
+    background-color: rgb(226, 114, 133);
+    text-decoration: none;
+    padding: 20px 40px;
+    
+}
+.fourth {
+    margin-left: 50px;
+    margin-right: 20px;
+    font-weight: 700;
+    font-size: larger;
+    background-color: rgb(253, 237, 243);
+    text-decoration: none;
+    padding: 20px 40px;
+}
+.fifth {
+    margin-left: 50px;
+    margin-right: 100px;
+    font-weight: 700;
+    font-size: larger;
+    background-color: rgb(253, 237, 243);
+    text-decoration: none;
+    padding: 20px 40px;
+}
+input{
+    border: none;
+    margin-left: 30%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    padding-top: 10%;
+}
+.help2{
+    margin-left: 550px;
+    margin-right: 250px;
+    font-weight: 700;
+    font-size: larger;
+    color: aliceblue;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(230, 84, 108), rgb(182, 97, 115));
+    padding: 20px 40px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 20px rgb(167, 115, 123); 
 }
