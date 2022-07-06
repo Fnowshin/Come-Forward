@@ -57,6 +57,8 @@ hr{
 .text3{
     color: rgb(36, 59, 61);
     font-weight: 200;
+    padding-bottom: 2%;
+    padding-top: 2%;
 }
 #amount {
     display: flex;
@@ -149,4 +151,49 @@ input{
 .food{
     background-color: rgb(243, 219, 243);
     margin-right: 5%;
+}
+.signup{
+    background-color: beige;
+    text-decoration: none;
+    padding: 22px 20px;
+    margin-top: 2%;
+    color: black;
+}
+.bottom{
+    background-color: rgb(255, 219, 227);
+    width: 60%;
+    margin-left: 20%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.box-mail{
+    background-color: beige;
+    text-decoration: none;
+    padding: 22px 40px;
+    color: black;
+}
+.subscribe{
+    background-color: rgb(161, 48, 93);
+    text-decoration: none;
+    padding: 22px 20px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 0;
+    color: black;
+}
+footer{
+    background-color: rgb(182, 97, 115);
+    text-align: center;
+    margin-top: 120px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.footer1{
+    font-size: 28px;
+    font-family: 'Pacifico', cursive;
+}
+.text4{
+    text-align: center;
+    font-size: small;
 }
