@@ -1,18 +1,19 @@
 body{
-    font-family: 'Ubuntu', sans-serif;   
+    font-family: 'Ubuntu', sans-serif;
+    
 }
-h1{color: aliceblue;
+h1{
+    color: aliceblue;
     font-size: 50px;
     text-align: center;
 }
-    
 h2{
     font-size: 30px;
 }
 h3{
     color: black;
-
 }
+
 p{
     color: aliceblue;
     text-align: center;
@@ -23,10 +24,6 @@ hr{
     width: 60%;
     margin-bottom: 40px;
 }
-#amount {
-    display: flex;
-    background-size: 100%;
-}
 .top-container{
     background-image: url(Images/donation13.jpg);
     background-size: 100%;
@@ -35,12 +32,13 @@ hr{
     padding-bottom: 100px;
 }
 .help{
+    margin-left: 450px;
+    margin-right: 250px;
     font-weight: 700;
     font-size: larger;
     color: aliceblue;
     text-decoration: none;
     background-image: linear-gradient(rgb(230, 84, 108), rgb(182, 97, 115));
-    background-size: 100%;
     padding: 20px 40px;
     border-radius: 40px;
     box-shadow: 10px 10px 20px rgb(167, 115, 123);
@@ -67,7 +65,9 @@ hr{
     text-align: center;
     font-size: small;
 }
-
+#amount {
+    display: flex;
+}
 .first{
     margin-left: 150px;
     margin-right: 20px;
@@ -125,12 +125,13 @@ input{
     padding-top: 10%;
 }
 .help2{
+    margin-left: 550px;
+    margin-right: 250px;
     font-weight: 500;
     font-size: larger;
     color: aliceblue;
     text-decoration: none;
     background-image: linear-gradient(rgb(230, 84, 108), rgb(182, 97, 115));
-    background-size: 100%;
     padding: 20px 40px;
     border-radius: 40px;
     box-shadow: 10px 10px 20px rgb(167, 115, 123); 
